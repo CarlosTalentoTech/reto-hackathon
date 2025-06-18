@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de Paneles Solares Domésticos</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-    <div class="container">
+    
         <div class="header">
-            <h1>☀️ Simulador de Paneles Solares</h1>
-            <p>Calcula tu ahorro mensual con energía solar</p>
+            <h1>Simulador de Paneles Solares</h1>
         </div>
+        <div class="button-group" role="navigation" aria-label="Navegación a secciones internas">
+            <button id="button1" aria-controls="section1">Sobre nosotros</button>
+            <button id="button2" aria-controls="section2">Costos</button>
+            <button id="button3" aria-controls="section3">Experiencias</button>
+        </div>
+  <section id="infoSection" tabindex="-1" aria-labelledby="infoTitle" role="region"></section>
+
         
         <div class="content">
             <div class="form-section">
-                <h2>📊 Datos de Entrada</h2>
+                <h2>Datos de Entrada</h2>
                 
                 <div class="form-group">
                     <label for="estrato">Estrato Socioeconómico:</label>
@@ -44,17 +50,17 @@
                 </div>
                 
                 <button class="btn" onclick="calcularAhorro()">
-                    🔍 Calcular Ahorro
+                     Calcular Ahorro
                 </button>
                 
                 <div class="info-box">
-                    <h3>💡 Cómo funciona</h3>
+                    <h3> Cómo funciona</h3>
                     <p>Este simulador utiliza la fórmula: <strong>Ahorro = Horas_sol × Eficiencia_panel × 30 × Tarifa - Consumo_actual</strong></p>
                 </div>
             </div>
             
             <div class="results-section">
-                <h2>📈 Resultados</h2>
+                <h2>Resultados</h2>
                 
                 <div id="results" style="display: none;">
                     <div class="result-card">
@@ -83,7 +89,6 @@
                 </div>
             </div>
         </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
