@@ -132,12 +132,12 @@ function crearGrafico(costoActual, ahorro, consumo) {
                 label: 'Costo/Energía',
                 data: [costoActual, costoConPaneles], 
                 backgroundColor: [
-                    'rgba(220, 53, 69, 0.8)',
-                    'rgba(40, 167, 69, 0.8)',
+                    'rgb(93, 130, 179)',
+                    'rgb(231, 243, 255)',
                 ],
                 borderColor: [
-                    'rgba(220, 53, 69, 1)',
-                    'rgba(40, 167, 69, 1)',
+                    'rgb(93, 130, 179)',
+                    'rgb(231, 243, 255)',
                 ],
                 borderWidth: 2
             }]
