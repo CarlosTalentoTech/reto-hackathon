@@ -136,6 +136,13 @@ input:focus, select:focus {
     font-size: 1.4em;
 }
 
+.result-cards-row {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
 .result-card {
     background: white;
     padding: 20px;
@@ -202,3 +209,36 @@ input:focus, select:focus {
         font-size: 2em;
     }
 }
+
+/* Tooltip accesible para información de eficiencia de paneles */
+.tooltip-info {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .tooltip-info:focus .tooltip-text,
+  .tooltip-info:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  .tooltip-text {
+    visibility: hidden;
+    width: 260px;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.95em;
+    line-height: 1.4;
+  }
+  .tooltip-info:focus {
+    outline: 2px solid #007bff;
+  }
