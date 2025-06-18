@@ -34,7 +34,6 @@ a {
 a:hover,
 a:focus {
   color: #1e4bb8;
-  text-decoration: underline;
 }
 
 button {
@@ -109,7 +108,7 @@ button:focus {
 .hero-content h2 {
   font-weight: 700;
   font-size: 2rem;
-  color: #2e4d14;
+  color: #283143;
   margin-bottom: 16px;
 }
 
@@ -146,7 +145,7 @@ button:focus {
 .benefits h2 {
   font-size: 2rem;
   font-weight: 800;
-  color: #2e4d14;
+  color: #283143;
   margin-bottom: 40px;
 }
 
@@ -180,7 +179,7 @@ button:focus {
   font-weight: 700;
   font-size: 1.25rem;
   margin-bottom: 12px;
-  color: #276312;
+  color: #283143;
 }
 
 .benefit-description {
@@ -191,7 +190,7 @@ button:focus {
 
 /* Pricing section */
 .pricing {
-  background: #f6fff0;
+  background: #d1e0ec;
   border-radius: 20px;
   padding: 36px 28px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -200,7 +199,7 @@ button:focus {
 .pricing h2 {
   font-weight: 800;
   font-size: 2rem;
-  color: #497318;
+  color: #283143;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -238,20 +237,25 @@ button:focus {
 
 .price-amount {
   font-weight: 700;
+<<<<<<< HEAD
   font-size: 2rem;
   color: #3a6612;
+=======
+  font-size: 2.25rem;
+  color: #283143;
+>>>>>>> e9a84c078e36dbb57b4cfea65f8f5ac2b8d453da
   margin-bottom: 6px;
 }
 
 .price-label {
   font-size: 1rem;
-  color: #557a1f;
+  color: #5a5a32;
   margin-bottom: 12px;
 }
 
 .price-description {
   font-size: 0.95rem;
-  color: #6d7a3a;
+  color: #5a5a32;
 }
 
 /* Additional info */
@@ -259,7 +263,7 @@ button:focus {
   max-width: 900px;
   margin: 0 auto;
   padding-top: 16px;
-  color: #4b5a18;
+  color: #283143;
 }
 
 .additional-info h3 {
@@ -493,8 +497,8 @@ select:focus {
 
 /* Footer */
 .footer {
-  background: #2f4f06;
-  color: #d4e157;
+  background: #b1ccdf;
+  color: #283143;
   padding: 18px 20px;
   text-align: center;
   font-size: 0.9rem;
@@ -503,11 +507,10 @@ select:focus {
 }
 
 .footer a {
-  color: #d4e157;
+  color: #283143;
   font-weight: 700;
-  text-decoration: underline;
 }
 
 .footer a:hover {
-  color: #f3f9cc;
+  opacity: 0.8;
 }
