@@ -237,8 +237,13 @@ button:focus {
 
 .price-amount {
   font-weight: 700;
+<<<<<<< HEAD
+  font-size: 2rem;
+  color: #3a6612;
+=======
   font-size: 2.25rem;
   color: #283143;
+>>>>>>> e9a84c078e36dbb57b4cfea65f8f5ac2b8d453da
   margin-bottom: 6px;
 }
 
