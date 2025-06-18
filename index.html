@@ -259,6 +259,20 @@
                 />
               </div>
 
+              <div class="form-group">
+                <label for="precioPanel">Precio del panel (COP):</label>
+                <input
+                  type="text"
+                  id="precioPanel"
+                  placeholder="Ej: 7.000.000"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="aniosAhorro">Años de uso:</label>
+                <input type="number" id="aniosAhorro" min="1" value="1" />
+              </div>
+
               <button class="btn" onclick="calcularAhorro()">
                 🔍 Calcular Ahorro
               </button>
@@ -315,6 +329,17 @@
 
               <div class="chart-container">
                 <canvas id="ahorroChart" width="400" height="200"></canvas>
+              </div>
+
+              <div
+                id="ahorroNetoContainer"
+                style="display: none; margin-top: 20px"
+              >
+                <strong
+                  >Ahorro neto en <span id="aniosElegidos"></span> años
+                  (descontando el precio del panel):</strong
+                >
+                <span id="ahorroNeto"></span>
               </div>
             </div>
           </div>
